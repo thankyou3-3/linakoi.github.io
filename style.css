@@ -1,0 +1,50 @@
+body {
+    font-family: "Roboto Slab";
+}
+
+a {
+    text-decoration:none; 
+}
+
+.title {
+    font-size: 26px;
+    color:cadetblue;
+}
+
+.subti {
+    font-size: 20px;
+    color:cadetblue;
+}
+
+html * {
+    box-sizing: border-box;
+}
+
+li {
+    margin: 7px 0;
+}
+
+h2 {
+    color: #F09A60;
+}
+
+h3 {
+    border-bottom: 3px dotted #3f5170
+}
+
+.wrapper {
+    margin: 0 auto 100px auto;
+    padding: 0 0 0 0;
+    max-width:70%;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        margin: 0 auto 100px auto;
+        padding: 0 0 0 0;
+        max-width:80%;
+    }
+}
