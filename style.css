@@ -1,15 +1,10 @@
 body {
     font-family: "Roboto Slab";
     background-color:aliceblue;
-    
 }
 
 a {
     text-decoration:none;
-}
-
-h1 {
-    color: cadetblue;
 }
 
 
@@ -24,13 +19,10 @@ h1 {
 }
 
 .wrapper {
-    margin: 0 auto 100px auto;
+    margin: 50px auto 100px auto;
     padding: 0 0 0 0;
     max-width:70%;
 }
-
-
-
 
 @media screen and (max-width: 768px) {
     .wrapper {
