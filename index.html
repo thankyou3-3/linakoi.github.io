@@ -4,9 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@900&family=Zen+Maru+Gothic:wght@900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="images/signboard.jpg"> <!--ロゴ-->
         <title>橙花</title>
@@ -14,7 +12,8 @@
 <body>
     <div class = "wrapper">
         <header>
-            <h1>
+            <h1 onmouseover="this.innerHTML='(* >_<)oo(>_< *)'"
+                onmouseout="this.innerHTML='o(>_< *)(* >_<)o'">
                 o(>_< *)(* >_<)o
             </h1>
             <p class = "h2">橙花's Page</p>
@@ -24,6 +23,11 @@
             <a href="links.html">Links</a>
             <br>
             <a href="blog.html">Blog</a>
+            <h1 id=replace style="font-size:20">ここに文章を記入</h1>
+            <br>
+            <input id=text1 style="idth:350px;" name=nyuryoku>
+            <input onclick="replace.innerHTML=text1.value" type="button" value="変身">
+
         </header>
         <main>
             <p class = "h3">Self introduction</p>
