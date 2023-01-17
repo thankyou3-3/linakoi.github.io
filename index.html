@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/signboard.jpg"> <!--ロゴ-->
         <title>橙花</title>
     </head>
 <body>
@@ -17,19 +18,29 @@
                 onmouseout="this.innerHTML='o(>_< *)(* >_<)o'">
                 o(>_< *)(* >_<)o
             </h1>
+            <img src="pic/mikoto.png" alt="かわいい" width="50" height="50">
+            <div class = "h2" id=replace style = "display:inline;">橙花</div><div style="display:inline;" class = "h2">'s Page</div>
+            <p>Welcome to Toka's HomePage o(>ω< *)</p>
+            <a href="not_index.html">Index</a>
+            <br>
+            <a href="links.html">Links</a>
+            <br>
+            <a href="blog.html">Blog</a>
+            <br>
+            
         </header>
         <main>
-        <input type="button" value="Welcome"  
-        onclick="i=0; msg='Welcome My HomePage.Please enter from this entrance'; timerID=setInterval('if(i<=msg.length){document.all.div1.innerText=msg.substring(0,i); i++;}if(i>msg.length){clearInterval(timerID);}',250);">
-        <div id=div1></div>
-        <p class = "h3">更新</p>
-        <p>2022/12/16:ホームページを開設しました</p>
-        <br>
-    </main>
-    <footer>
-        <input id=text1 style="width:350px;" name=nyuryoku>
-        <input onclick="replace.innerHTML=text1.value" type="button" value="What era___?">
-    </footer>
-</div>
+            <p class = "h3">Self introduction</p>
+            <p>NITGC-2J</p>
+            <p>I like mister.Donuts</p>
+            <p class = "h3">Update</p>
+            <p>2022/11/7:Opened this homepage.</p>
+            <p>2022/11/11:Added Blog.</p>
+        </main>
+        <footer>
+            <input id=text1 style="width:350px;" name=nyuryoku>
+            <input onclick="replace.innerHTML=text1.value" type="button" value="whose page__?">
+        </footer>
+    </div>
 </body>
 </html>

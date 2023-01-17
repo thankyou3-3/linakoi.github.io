@@ -37,6 +37,18 @@ h1 {
     max-width:70%;
 }
 
+.hide {
+    color:rgba(0,0,0,00)
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+img {
+    padding: 40px,0px,0px,100px;
+}
+
 @media screen and (max-width: 768px) {
     .wrapper {
         margin: 0 auto 100px auto;
